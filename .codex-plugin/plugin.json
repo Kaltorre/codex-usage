@@ -1,0 +1,36 @@
+{
+  "name": "codex-usage",
+  "version": "0.1.0",
+  "description": "Shows current Codex usage: context occupancy, remaining context, and 5-hour/weekly limit status from local token_count events.",
+  "author": {
+    "name": "Local Codex Tools"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "context",
+    "tokens",
+    "rate-limits",
+    "monitoring"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Codex Usage",
+    "shortDescription": "Show Codex context, usage, and limits",
+    "longDescription": "Reads local Codex rollout logs and reports the latest token_count event: context window usage, remaining context tokens, 5-hour limit usage, weekly limit usage, and reset times. Includes an MCP tool, CLI watcher, and a small always-on-top desktop widget that can sit near Codex or near the pet/avatar overlay.",
+    "developerName": "Local Codex Tools",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Show my Codex usage",
+      "Monitor my 5h and weekly Codex limits",
+      "How full is this Codex context?"
+    ],
+    "brandColor": "#0F766E",
+    "screenshots": []
+  }
+}

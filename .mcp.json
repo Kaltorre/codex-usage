@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codex-usage": {
+      "command": "python",
+      "args": [
+        "./scripts/context_limit_mcp.py"
+      ]
+    }
+  }
+}
