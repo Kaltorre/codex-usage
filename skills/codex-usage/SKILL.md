@@ -53,7 +53,7 @@ Header controls:
 - `1.2x` / `1x` / `.8x`: cycle the widget scale and save the choice.
 - `CFG`: open project checkboxes for the `ALL` view. Hidden projects are saved in `~/.codex/codex-usage-widget.json`.
 
-Use `--position top-left`, `--position top-right`, `--position bottom-left`, `--position bottom-right`, or `--position custom --x 80 --y 80` when needed. Use `--active-hours 48` to change how far back `ALL` scans, and `--max-projects 12` to show more project rows.
+Use `--active-hours 48` to change how far back `ALL` scans, and `--max-projects 12` to show more project rows.
 
 Account-level `5h` and weekly limits should be read from the freshest `token_count` snapshot across all local Codex sessions. Project context rows should continue to use the selected/current project's own latest context snapshot.
 

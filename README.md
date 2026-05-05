@@ -42,15 +42,9 @@ or:
 .\codex-usage\scripts\start_context_limit_widget.ps1
 ```
 
-By default it opens at the last saved widget position. If no saved position exists, it tries to open near the Codex pet/avatar overlay when Codex has saved that position. Other positions:
+By default it opens at the last saved widget position. If no saved position exists, it tries to open near the Codex pet/avatar overlay when Codex has saved that position.
 
-```powershell
-.\codex-usage\scripts\start_context_limit_widget.ps1 --position top-right
-.\codex-usage\scripts\start_context_limit_widget.ps1 --position bottom-right
-.\codex-usage\scripts\start_context_limit_widget.ps1 --position custom --x 80 --y 80
-```
-
-Drag the widget with the mouse from any visible part of the widget. The position is saved after you release the mouse. Press `Esc` or click `x` to close it.
+Drag the widget from any visible part of the widget to reposition it. The position is saved after you release the mouse. Press `Esc` or click `x` to close it.
 
 The header also includes scope/config controls:
 
